@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3b0028/v1
+canonical_location: https://kanripo.org/bkk/KR3b0028/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 守法守令等十三篇
+  identifiers:
+    krp: KR3b0028
+  tags:
+    tls-internal: swl
+    kr-categories: KR3b
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0028.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0028_001.yaml, hash: 'sha256:66f1ebb8032deb3c928c427573e073f7ea891db4b56faed7a716a7e3ea0c64f9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0028_001.markers.yaml, hash: 'sha256:37665815306d638b8d9c1016d82c7e2b167176e9043b04c46025e0bb1ee40f5d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0028_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4936
+  label: 篇題木牘
+  type: section
+  level: 1
+hash: sha256:4dfed8b0ad2b53731b2bcd0ad97885a1b318527c69aae611e122a87f57080759
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

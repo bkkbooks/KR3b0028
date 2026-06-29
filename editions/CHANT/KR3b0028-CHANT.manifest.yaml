@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3b0028/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3b0028/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 守法守令等十三篇
+  identifiers:
+    krp: KR3b0028
+  tags:
+    tls-internal: swl
+    kr-categories: KR3b
+  source:
+    repository: tls-texts
+    path: data/tls/KR3b0028.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3b0028_001-CHANT.yaml, hash: 'sha256:644fd237f255797ca59764b4b7d9eb2af4d4fb9bdc2e5ad319e9dde3dbee485b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3b0028_001-CHANT.markers.yaml, hash: 'sha256:db4b6e9d59380e5291a93bc51e8a91691795939a9c0e5c40de8cef3a337a4c69'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3b0028_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4936
+  label: 篇題木牘
+  type: section
+  level: 1
+hash: sha256:7b13e1cb28557761f8ba1c6421430799c07b9613c53abfb99077075a41920cfe
